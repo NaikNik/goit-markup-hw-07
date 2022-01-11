@@ -1,0 +1,16 @@
+.footer-section {
+    background-color: $theme-color-secondary;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .social-network-container {
+        margin-left: 70px;
+    }
+    .mailing-section {
+        position: relative;
+        display: flex;
+        min-width: 570px;
+        height: 86px;
+        margin-left: 93px;
+        flex-direction: column;
+    }
+}

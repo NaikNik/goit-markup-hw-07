@@ -1,0 +1,22 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    color: $theme-color;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    .studioword {
+        color: #000;
+    }
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 20px;
+    .studiowordfooter {
+        color: $text-secondary-lighter;
+        font-style: $secondary-font;
+    }
+}
