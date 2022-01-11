@@ -424,6 +424,15 @@ header {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.phys-adress {
+  color: #ffffff !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -627,6 +636,41 @@ header {
 
 .button--submit:hover {
   background-color: #188ce8;
+}
+
+.mailing-form button {
+  position: absolute;
+  top: 36px;
+  left: 370px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+  padding: 0;
+  background-color: #2996f3;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.mailing-form button:after {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 1px;
+  background-image: url(/images/icon-send.svg);
 }
 
 .icon-social {
