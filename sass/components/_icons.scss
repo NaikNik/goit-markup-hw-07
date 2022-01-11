@@ -37,3 +37,12 @@
     transition-property: fill;
     @extend %animation;
 }
+
+.advantages__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: rgba(245, 244, 250, 1);
+    margin-bottom: 30px;
+}

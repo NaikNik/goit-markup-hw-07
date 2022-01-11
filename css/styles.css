@@ -659,7 +659,8 @@ input[id="user-agree"]::before {
 
 /*-------------------------------modal end-----------------------------*/
 
-.hero__title {
+
+/* .hero__title {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -671,9 +672,10 @@ input[id="user-agree"]::before {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-}
+} */
 
-.button--hero {
+
+/* .button--hero {
     display: block;
     font-weight: 700;
     background-color: var(--theme-color);
@@ -690,7 +692,7 @@ input[id="user-agree"]::before {
 .button--hero:hover,
 .button--hero:focus {
     background-color: #098af3;
-}
+} */
 
 .services__list .services_item {
     position: relative;

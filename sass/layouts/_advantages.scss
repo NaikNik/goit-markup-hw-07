@@ -1,0 +1,36 @@
+.advantages {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.advantages__list {
+    display: flex;
+    flex-wrap: wrap;
+    .advantages__item {
+        width: 270px;
+    }
+    li+li {
+        margin-left: 30px;
+    }
+}
+
+.advantages__list {
+    h3 {
+        color: $text-primary;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    p {
+        color: $text-secondary;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    }
+}

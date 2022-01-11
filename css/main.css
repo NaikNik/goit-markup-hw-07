@@ -84,6 +84,61 @@ header {
           flex-direction: column;
 }
 
+.hero__title {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 696px;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.advantages__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.advantages__list .advantages__item {
+  width: 270px;
+}
+
+.advantages__list li + li {
+  margin-left: 30px;
+}
+
+.advantages__list h3 {
+  color: #212121;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.advantages__list p {
+  color: #757575;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
 .navbar {
   margin-left: 93px;
 }
@@ -485,6 +540,21 @@ header {
   left: 12px;
   -webkit-transition-property: fill;
   transition-property: fill;
+}
+
+.advantages__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
 }
 
 .backdrop {
