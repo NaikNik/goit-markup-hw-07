@@ -287,7 +287,8 @@ p {
     margin-left: 93px;
     flex-direction: column;
 } */
-.mailing-form button {
+
+/* .mailing-form button {
     position: absolute;
     top: 36px;
     left: 370px;
@@ -313,8 +314,9 @@ p {
     margin-left: 10px;
     margin-top: 1px;
     background-image: url(../images/icon-send.svg);
-}
-.mailing-section__header {
+} */
+
+/* .mailing-section__header {
     margin-bottom: 20px;
     color: var(--text-secondary-lighter);
     font-style: normal;
@@ -331,12 +333,13 @@ p {
     padding-left: 32px;
     background-color: var(--theme-color-secondary);
     color: var(--text-secondary);
-}
+} */
 
 /*==========header-footer style end===============*/
 
 /* ===================Buttons style start======================= */
-.buttons {
+
+/* .buttons {
     background-color: #F5F4FA;
     border: none;
     color: #212121;
@@ -357,14 +360,15 @@ p {
 .buttons:focus {
     background-color: rgba(24, 140, 232, 1);
     color: var(--text-secondary-lighter);
-}
+} */
 
 /* =======================Buttons style end================= */
 
 /* ********************************************************************** */
 
 /*========== Main style start =====================*/
-.container {
+
+/* .container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -372,9 +376,11 @@ p {
     padding-left: 15px;
 }
 .container.common-nav {
-    position: relative;
+    position: relative; */
+
 }
-.hero {
+
+/* .hero {
     padding-top: 200px;
     padding-bottom: 200px;
     max-width: 1600px;
@@ -383,7 +389,7 @@ p {
     background-position: center;
     background-color: rgba(196, 196, 196, 1);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/images_main/heroimage.jpg);
-}
+} */
 
 /*-------------------------------modal-----------------------------*/
 
@@ -991,7 +997,9 @@ input[id="user-agree"]::before {
 }
 .portfolio__filter-list .buttons:hover,
 .portfolio__filter-list .buttons:focus {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio__example-list {
     display: flex;
@@ -1010,7 +1018,8 @@ input[id="user-agree"]::before {
 }
 .portfolio__example-list a>div>h3 {
     margin-bottom: 4px;
-    font-family: var(--primary-font), sans-serif;
+    font-family: var(--primary-font),
+    sans-serif;
     color: var(--text-primary);
     font-weight: bold;
     font-size: 18px;
@@ -1045,7 +1054,9 @@ input[id="user-agree"]::before {
 }
 .portfolio__link:hover,
 .portfolio__link:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio__link:hover .portfolio__thumb--overlay {
     transform: translateY(0);
