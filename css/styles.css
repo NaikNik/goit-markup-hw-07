@@ -694,7 +694,8 @@ input[id="user-agree"]::before {
     background-color: #098af3;
 } */
 
-.services__list .services_item {
+
+/* .services__list .services_item {
     position: relative;
     z-index: 95;
 }
@@ -748,9 +749,10 @@ input[id="user-agree"]::before {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--text-secondary-lighter);
-}
+} */
 
-.advantages__list .advantages__item {
+
+/* .advantages__list .advantages__item {
     width: 270px;
 }
 
@@ -804,9 +806,10 @@ input[id="user-agree"]::before {
     height: 120px;
     background-color: var(--text-secondary-lighter);
     margin-bottom: 30px;
-}
+} */
 
-.services__list {
+
+/* .services__list {
     display: flex;
 }
 
@@ -823,9 +826,10 @@ input[id="user-agree"]::before {
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
-}
+} */
 
-.team {
+
+/* .team {
     background-color: #F5F4FA;
     padding-bottom: 94px;
     padding-top: 94px;
@@ -881,9 +885,10 @@ input[id="user-agree"]::before {
 .team-member-meta {
     padding: 30px 0px 30px;
     background-color: var(--text-secondary-lighter);
-}
+} */
 
-.social-network-list {
+
+/* .social-network-list {
     display: flex;
     justify-content: center;
     margin-top: 16px;
@@ -937,7 +942,7 @@ input[id="user-agree"]::before {
     width: 20px;
     height: 20px;
     fill: white
-}
+} */
 
 .customers-section {
     padding-bottom: 94px;

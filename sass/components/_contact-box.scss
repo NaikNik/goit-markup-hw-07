@@ -7,10 +7,11 @@
     }
     .contact-box-list__item {
         display: flex;
-        &hover svg {
-            fill: $theme-color;
-        }
     }
+}
+
+.contact-box-list__item:hover svg {
+    fill: $theme-color;
 }
 
 .contact-box-list__mail {

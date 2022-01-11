@@ -32,6 +32,10 @@
     margin-bottom: 0;
 }
 
+.social-network-list__item:first-child {
+    margin-left: 0;
+}
+
 .social-network-list__item {
     width: 44px;
     height: 44px;
