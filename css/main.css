@@ -356,6 +356,11 @@ header {
   margin-left: 8px;
 }
 
+.portfolio .portfolio__filter-list.buttons:hover, .portfolio .portfolio__filter-list.buttons:focus {
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 .item {
   border-radius: 4px;
 }
