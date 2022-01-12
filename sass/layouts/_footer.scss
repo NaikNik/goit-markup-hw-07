@@ -8,10 +8,10 @@
     .mailing-section {
         position: relative;
         display: flex;
+        flex-direction: column;
         min-width: 570px;
         height: 86px;
         margin-left: 93px;
-        flex-direction: column;
         .mailing-section__header {
             margin-bottom: 20px;
             color: $text-secondary-lighter;

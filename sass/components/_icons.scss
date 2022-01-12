@@ -2,8 +2,7 @@
     width: 20px;
     height: 20px;
     fill: rgba(175, 177, 184, 1);
-    @extend %animation;
-    transition-property: fill;
+    @include transition (fill);
 }
 
 .icon-social-footer {
@@ -17,8 +16,7 @@
     display: block;
     margin-right: 10px;
     fill: $text-secondary;
-    @extend %animation;
-    transition-property: fill;
+    @include transition (fill);
 }
 
 .confirmation__icon {
@@ -34,8 +32,7 @@
     position: absolute;
     top: 11px;
     left: 12px;
-    transition-property: fill;
-    @extend %animation;
+    @include transition (fill);
 }
 
 .advantages__icon {
@@ -49,6 +46,5 @@
 
 .logo {
     fill: #AFB1B8;
-    transition-property: fill;
-    @extend %animation;
+    @include transition (fill);
 }

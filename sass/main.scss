@@ -1,6 +1,6 @@
 @import '../sass/utils/_variables';
-@import '../sass/utils/_resets';
-@import '../sass/utils/placeholders';
+@import '../sass/base/resets';
+@import '../sass/utils/presets';
 @import '../sass/layouts/containers';
 @import '../sass/layouts/header';
 @import '../sass/layouts/footer';
@@ -9,6 +9,7 @@
 @import '../sass/layouts/services';
 @import '../sass/layouts/team';
 @import '../sass/layouts/customers';
+@import '../sass/layouts/portfolio';
 @import '../sass/components/navbar';
 @import '../sass/components/contact-box';
 @import '../sass/components/logo';

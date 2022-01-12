@@ -922,7 +922,8 @@ input[id="user-agree"]::before {
     height: 20px;
     fill: white
 } */
-.customers-section {
+
+/* .customers-section {
     padding-bottom: 94px;
     padding-top: 94px;
 }
@@ -973,13 +974,15 @@ input[id="user-agree"]::before {
     cursor: pointer;
 }
 .customers-list .customers-list__item:hover svg {
-    fill: var(--theme-color);
+    fill: var(--theme-color); */
+
 }
 
 /*========== Main style end =====================*/
 
 /* ============Portfolio style start ============*/
-.portfolio {
+
+/* .portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -1085,4 +1088,4 @@ input[id="user-agree"]::before {
     line-height: 1.56;
     letter-spacing: 0.03em;
     color: white !important;
-}
+} */

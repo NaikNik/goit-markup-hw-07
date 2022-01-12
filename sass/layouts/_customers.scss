@@ -14,18 +14,15 @@
 }
 
 .customers-list {
-    display: flex;
-    justify-content: center;
+    @extend %flex-center;
     .customers-list__item {
-        display: flex;
-        justify-content: center;
+        @extend %flex-center;
         align-items: center;
         width: 170px;
         height: 92px;
         border: 1px solid #AFB1B8;
         border-radius: 4px;
-        transition-property: border-color;
-        @extend %animation;
+        @include transition (border-color)
     }
 }
 
