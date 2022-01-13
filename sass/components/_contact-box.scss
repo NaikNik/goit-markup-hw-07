@@ -24,6 +24,10 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     @include transition (color);
+    &:hover,
+    &:focus {
+        color: $theme-color;
+    }
 }
 
 .contact-box-list__phone {
@@ -36,16 +40,10 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     @include transition (color);
-}
-
-.contact-box-list__mail:hover,
-.contact-box-list__mail:focus {
-    color: $theme-color;
-}
-
-.contact-box-list__phone:hover,
-.contact-box-list__phone:focus {
-    color: $theme-color;
+    &:hover,
+    &:focus {
+        color: $theme-color;
+    }
 }
 
 .mail-footer,

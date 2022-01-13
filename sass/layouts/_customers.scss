@@ -22,21 +22,18 @@
         height: 92px;
         border: 1px solid #AFB1B8;
         border-radius: 4px;
-        @include transition (border-color)
+        @include transition (border-color);
+        &:hover {
+            border-color: $theme-color;
+            cursor: pointer;
+        }
+        &:hover svg {
+            fill: $theme-color;
+        }
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
     }
-}
-
-.customers-list__item:hover {
-    border-color: $theme-color;
-    cursor: pointer;
-}
-
-.customers-list__item:hover svg {
-    fill: $theme-color;
-}
-
-.customers-list .customers-list__item:not(:last-child) {
-    margin-right: 30px;
 }
 
 .customers-list__link {

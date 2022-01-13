@@ -9,13 +9,14 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 100;
-    &.is-hidden {
-        opacity: 0;
-        pointer-events: none;
-        transition-property: background-color;
-        transition-property: opacity;
-        @include transition (background-color opacity);
-    }
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transition-property: background-color;
+    transition-property: opacity;
+    @include transition (background-color opacity);
 }
 
 .modal {
@@ -129,15 +130,14 @@
     width: 16px;
     height: 15px;
     visibility: hidden;
-}
-
-input[id="user-agree"]::before {
-    content: '';
-    display: block;
-    width: 16px;
-    height: 16px;
-    border: 1px solid $text-primary;
-    background-color: #000000;
+    &:before {
+        content: '';
+        display: block;
+        width: 16px;
+        height: 16px;
+        border: 1px solid $text-primary;
+        background-color: #000000;
+    }
 }
 
 .confirmation {

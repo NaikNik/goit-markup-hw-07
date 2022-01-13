@@ -1,5 +1,9 @@
 .social-network-container__title {
-    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
     margin-bottom: 20px;
     color: $text-secondary-lighter;
 }
@@ -17,11 +21,13 @@
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.1);
     @include transition (background-color);
-}
-
-.social-network-list__item--footer:hover,
-.social-network-list__item--footer:focus {
-    background-color: $theme-color;
+    &:hover,
+    &:focus {
+        background-color: $theme-color;
+    }
+    &:first-child {
+        margin-left: 0;
+    }
 }
 
 .social-network-list {
@@ -29,10 +35,6 @@
     justify-content: center;
     margin-top: 16px;
     margin-bottom: 0;
-}
-
-.social-network-list__item:first-child {
-    margin-left: 0;
 }
 
 .social-network-list__item {
@@ -45,7 +47,7 @@
     cursor: pointer;
     background-color: $text-secondary-lighter;
     @include transition (background-color);
-    .social-network-list__item:first-child {
+    &:first-child {
         margin-left: 0;
     }
     .social-network-list__link {
@@ -58,7 +60,7 @@
     &:hover {
         background-color: $theme-color;
     }
-    &:hover>svg {
+    &:hover svg {
         fill: $text-secondary-lighter;
     }
 }
