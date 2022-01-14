@@ -278,17 +278,15 @@ p {
 .social-network-list__item--footer:focus {
     background-color: var(--theme-color);
 } */
-
-/* .mailing-section {
+.mailing-section {
     position: relative;
     display: flex;
     min-width: 570px;
     height: 86px;
     margin-left: 93px;
     flex-direction: column;
-} */
-
-/* .mailing-form button {
+}
+.mailing-form button {
     position: absolute;
     top: 36px;
     left: 370px;
@@ -314,9 +312,8 @@ p {
     margin-left: 10px;
     margin-top: 1px;
     background-image: url(../images/icon-send.svg);
-} */
-
-/* .mailing-section__header {
+}
+.mailing-section__header {
     margin-bottom: 20px;
     color: var(--text-secondary-lighter);
     font-style: normal;
@@ -333,7 +330,7 @@ p {
     padding-left: 32px;
     background-color: var(--theme-color-secondary);
     color: var(--text-secondary);
-} */
+}
 
 /*==========header-footer style end===============*/
 

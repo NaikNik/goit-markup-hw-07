@@ -71,7 +71,7 @@ header {
   margin-left: 70px;
 }
 
-.footer-section .mailing-section {
+.mailing-section {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -80,12 +80,15 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
   min-width: 570px;
   height: 86px;
   margin-left: 93px;
 }
 
-.footer-section .mailing-section .mailing-section__header {
+.mailing-section .mailing-section__header {
   margin-bottom: 20px;
   color: #ffffff;
   font-style: normal;
@@ -95,6 +98,7 @@ header {
 }
 
 .mailing-field {
+  display: inline-block;
   width: 358px;
   height: 50px;
   border-radius: 4px;
@@ -838,13 +842,13 @@ header {
   background-color: #188ce8;
 }
 
-.mailing-form > button {
+.mailing-form button {
   position: absolute;
-  top: 36px;
-  left: 370px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  /*    top: 36px;
+    left: 370px; */
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -852,7 +856,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   margin-left: 12px;
-  width: 200px;
+  min-width: 200px;
   height: 50px;
   padding: 0;
   background-color: #2996f3;
@@ -862,7 +866,7 @@ header {
   letter-spacing: 0.03em;
 }
 
-.mailing-form > button:after {
+.mailing-form button:after {
   content: '';
   display: inline-block;
   width: 24px;
@@ -870,7 +874,7 @@ header {
   text-align: center;
   margin-left: 10px;
   margin-top: 1px;
-  background-image: url(/images/icon-send.svg);
+  background-image: url(../images/icon-send.svg);
 }
 
 .icon-social {
