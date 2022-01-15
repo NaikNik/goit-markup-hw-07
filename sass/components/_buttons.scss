@@ -75,15 +75,15 @@
     }
 }
 
-.mailing-form button {
+.mailing-section__button {
     position: absolute;
-    /*    top: 36px;
+    /* top: 36px;
     left: 370px; */
     display: inline-flex;
     justify-content: center;
     align-items: center;
     margin-left: 12px;
-    min-width: 200px;
+    width: 200px;
     height: 50px;
     padding: 0;
     background-color: $theme-color;
